@@ -1,0 +1,33 @@
+<div *ngIf="member">
+  <h3>{{member.name}} Details</h3>
+  <span>Full Name: {{member.fullName}}</span>
+  <br>
+  <span>Age: {{member.age}}</span>
+  <br>
+  <span>Origin: {{member.origin}}</span>
+  <div>
+    <h4>Edit</h4>
+    <!-- <label for="id">ID: </label>
+    <input id="id" [(ngModel)]="member.id" placeholder="id">
+
+    <br>
+    <label for="name">Name: </label>
+    <input id="name" [(ngModel)]="member.name" placeholder="name"> -->
+
+    <br>
+    <label for="full-name">Full Name: </label>
+    <input id="full-name" [(ngModel)]="member.fullName" placeholder="fullname">
+
+    <br>
+    <label for="age">Age: </label>
+    <input id="age" [(ngModel)]="member.age" placeholder="age">
+
+    <br>
+    <label for="origin">Origin </label>
+    <input id="origin" [(ngModel)]="member.origin" placeholder="origin">
+
+    <button type="button" (click)="save()">Save</button>
+  </div>
+
+  <button type="button" (click)="goBack()">Go Back</button>
+</div>
