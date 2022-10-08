@@ -1,5 +1,22 @@
 # Twice
 
+PROJECT DESCRIPTION:
+- CRUD operation with fake JSON API server (backend)
+
+# ng serve
+Run dev server
+
+# npm run server
+Run fake server
+
+# Create fake server
+1. run npm i json-server
+2. Config  package.json => add "server": "json-server --watch db.json" in "scripts"
+3. Create db.json in src
+4. Create database in JSON format
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
 ## Development server
