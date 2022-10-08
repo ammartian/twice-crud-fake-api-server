@@ -7,7 +7,7 @@ PROJECT DESCRIPTION:
 Run dev server
 
 # npm run server
-Run fake server
+Run fake server localhost:3000/members
 
 # Create fake server
 1. run npm i json-server
